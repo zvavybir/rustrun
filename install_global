@@ -1,0 +1,3 @@
+#!/bin/bash
+cp rustrun /usr/bin/
+chmod +x /usr/bin/rustrun

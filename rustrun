@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# License: GPLv3+ (See README.md and LICENSE.md for more)
+
+TMPFILE=`mktemp /tmp/rustrun-XXXXXXXXXXXXXXX`
+rustc -o $TMPFILE $1
+chmod +x $TMPFILE
+$TMPFILE
